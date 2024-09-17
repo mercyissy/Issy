@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30PX;
+}
+.box:hover{
+    /* transform: translate(50px,50px); */
+    /* transform: translateY(100px); */
+    /* transition: all ease-in-out; */
+    /* transform: scale(1.5); */
+    transform: skew(170deg);
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30PX;
+}
+.box1:hover{
+    width: 100px;
+    /* transform: scale(2); */
+    background-color: aqua;
+    /* transform: skewX(30deg); */
+    transform: rotate(180deg);
+    transition: all ease-in-out 1s;
+    transform: matrix(1,2,2,1.5,5,5);
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s;
+    transition-property: width;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+/* matrix(scalex(),skewY(),skewX(),scaleY(),translateX(),translateY()) */
+.box2{
+    width: 200px;
+    border-radius: 5px;
+    background-color: aqua;
+    /* transform: scale(2); */
+    height: 200px;
+    margin: 30px;
+    animation-name: mercy;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    /* animation-iteration-count: infinite; */
+}
+.box2:hover{
+
+}
+img{
+    filter: blur(10px);
+}
+.anu{
+    filter: grayscale();
+}
+@keyframes mercy {
+    from{
+        background-color: blue;
+        transform: translateX(0);
+    }
+    to{
+        background-color: blueviolet;
+        transform: translateX(700px);
+    }
+}

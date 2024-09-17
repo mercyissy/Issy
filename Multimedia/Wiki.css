@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+}
+
+.heading {
+    display: block;
+    position: absolute;
+    right: 38%;
+    margin-top: 50px;
+
+}
+
+.heading h2 {
+    margin-left: 5px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.container {
+    /* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    right: 38%;
+    top: 20%;
+    margin-top: 40px;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+}
+
+.box {
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.lang {
+    position: absolute;
+
+}
+
+.lang a {
+    color: blue;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.eng {
+    top: -15%;
+    left: -35%;
+
+}
+
+.chi {
+    top: -15%;
+    right: -35%;
+}
+
+.pyc {
+    top: 10%;
+    left: -50%;
+}
+
+.deu {
+    top: 10%;
+    right: -50%;
+}
+
+.esp {
+    top: 35%;
+    left: -62%;
+}
+
+.fra {
+    top: 35%;
+    right: -55%;
+}
+
+.ita {
+    top: 60%;
+    left: -48%;
+}
+
+.jap {
+    top: 60%;
+    right: -62%;
+}
+
+.por {
+    top: 90%;
+    left: -30%;
+}
+
+.ara {
+    top: 90%;
+    right: -30%;
+}
+
+.inpu{
+    display: flex;
+    position: absolute;
+    top: 77%;
+    right: 32%;
+}
+.inpu input{
+    width: 450px;
+    height: 44px;
+}
+.glass{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    padding: 12px;
+}
+.butt button{
+    height: 35px;
+    width: 300px;
+    position: absolute;
+    top: 87%;
+    right: 40%;
+    color: blue;
+
+}
+.hr{
+    position: absolute;
+    top: 90%;
+}
+.grp1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.cont {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -50%;
+    
+}
+.sands {
+    display: flex;
+    padding: 10px;
+
+}
+.sands img {
+    width: 47px;
+    height: 47px;
+}
+.btn {
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: black;
+    height: 48px;
+    width: 135px;
+    display: flex;
+    color: white;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.sec {
+    padding: 5px;
+}
+.app {
+    display: flex;
+    justify-content: center;
+
+}

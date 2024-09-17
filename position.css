@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 800px;
+    border: 2px solid red;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.container>div{
+    height: 100px;
+    width: 100px;
+}
+body{
+    position: relative;
+}
+.mercy{
+    background-color: blanchedalmond;
+    position: absolute;
+    right: 0;
+}
+.char{
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.adeyanju{
+background-color: green;
+position: absolute;
+right: 35%;
+bottom: 40%;
+
+}
+.ayobami{
+background-color: aquamarine;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+.plato{
+background-color: black;
+position: absolute;
+left; 0;
+}

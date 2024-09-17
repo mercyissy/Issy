@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> List Assignment</title>
+</head>
+<body>
+    <ol style="color: blue;">
+        <li> Dependency management</li>
+        <li> System  Requiremnent</li>
+        <li> Installation</li>
+        <ol>
+            <li> Downloading the composer Executable</li>
+            <ol>
+                <li> Locally</li>
+                <li> Globally</li>
+            </ol>
+            
+        </ol>
+            <li> Installation- Windows</li>
+            <ol>
+                <li> Using the installer</li>
+                <li> Manual Installation</li>
+            </ol>
+
+            <li> Docker Image</li>
+            <li> Using Composer</li>
+    </ol>
+
+            <h3> Introduction</h3>
+
+            <p> Composer is a tool for dependency management in PHP. It allows you to declare 
+                the libraries your project depends on and it will manage (install/update) them for you</p>
+                
+                <h3> Dependency management</h3>
+
+            <p> Composer is not a package manager in the same sense as Yum or Apt are. Yes, it deals with "packages" or libraries, but it manages them on a per-project basis, installing them in a directory (e.g. vendor) inside your project. By default, it does not install anything globally. Thus, it is a dependency manager.
+                     It does however support a "global" project for convenience via the global command.</p>
+
+             <p> This idea is not new and Composer is strongly inspired by node's npm and ruby's bundler.</p>
+
+             <p> Suppose</p>
+                 <ol>
+                        <li> You have a project that depends on a number of libraries.</li>
+                        <li> Some of those libraries depend on other libraries.</li>
+                 </ol>
+
+              <p> Composer</p>
+
+                  <ol> 
+                        <li> Enables you to declare the libraries you depend on.</li>
+                        <li>Finds out which versions of which packages can and need to be installed,
+                            and installs them (meaning it downloads them into your project).</li>
+                        <li> You can update all your dependencies in one command.</li>
+                  </ol>
+
+                <p> See the Basic usage chapter for more details on declaring dependencies.</p>
+
+    
+</body>
+</html>

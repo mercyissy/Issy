@@ -1,0 +1,44 @@
+/* .text{
+    text-transform: capitalize;
+    line-height: 24px;
+    margin: 20px;
+    word-spacing: 5px; 
+} */
+.head{
+    /* text-shadow: 5px 5px 5px lawngreen; */
+
+    text-decoration: 5px blue underline;
+    text-align: center;
+
+}
+.box{
+    border: 1px solid blue;
+    width: 30%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.box1{
+    background-color: black;
+    float: left;
+    margin: 20px;
+}
+.box2{
+    background-color: brown;
+    float: left;
+    margin: 20px;
+}
+.box3{
+    background-color: blueviolet;
+    float: left;
+    margin: 20px;
+}
+.boy{
+    display: flex;
+    flex-direction: column;
+}
+.containers{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 20px;
+}

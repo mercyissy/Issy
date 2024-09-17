@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HEAD{
+    position: absolute;
+    top: 15%;
+}
+.sub{
+    position: absolute;
+    top: 22%;
+}
+.HEAD{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .WIKI{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+} */
+.eng{
+    top: 29%;
+    left: 33%;
+}
+
+.lang{
+    position: absolute;
+}
+/* .head{
+    position: absolute;
+    top: -33%;
+    left: 33%;
+} */
+.chinese{
+    top: 29%;
+    left: 57%;
+    width: 40%;
+} 
+.ali{
+    margin-left:30px;
+    color: blue;
+}
+.french{
+    top: 38%;
+    left: 32%;
+}
+.deut{
+    bottom: 55%;
+    left: 61%;
+}
+.esp{
+top: 47%;
+left: 30%;
+}
+.fran{
+  bottom: 47%;
+  left:61%;
+}
+.it{
+bottom: 36%;
+left: 34%;
+}
+.un{
+bottom: 36%;
+right:-10%;
+width: 50%;
+}
+.pot{
+   bottom: 27%;
+   left: 36%;
+}
+.u2{
+  bottom: 26%;
+  right: 35%;
+}
+.box{
+    display: flex;
+}
+.inpu{
+    display: flex;
+    position: absolute;
+    top: 77%;
+    right: 32%;
+}
+.inpu input{
+    width: 450px;
+    height: 44px;
+}
+.glass{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.butt button{
+    height: 35px;
+    width: 300px;
+    position: absolute;
+    top: 87%;
+    right: 40%;
+    color: blue;
+
+}
+/* .hr{
+    position: absolute;
+    top: 50%;
+} */
+.set1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+/* margin-top: 50px; */
+}
+.conta {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -74%;
+    margin-top: 40px;
+}
+.sub1 {
+    display: flex;
+    padding: 10px;
+
+}
+.sub1 img {
+    width: 47px;
+    height: 52px;
+} 
+.log{
+margin-left: 40px;
+}

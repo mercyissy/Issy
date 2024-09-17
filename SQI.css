@@ -1,0 +1,50 @@
+.CON{
+    /* display: flex; */
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+}
+.lg{
+    width: 100%;
+}
+.ab{
+    gap: 100px;
+}
+.head{
+    justify-content: space-between !important;
+}
+.grp{
+    width: 200px;
+    height: 600px;
+    background-color: #8;
+}
+body{
+    height: 100vh;
+   justify-content: center;
+   align-items: center;
+   position: relative; 
+}
+.start{
+    width: 70px;
+    height: 50px;
+    border: none;
+}
+.logo{
+    position: fixed;
+    left: 0;
+}
+.whole{
+    justify-content: center;
+    align-items: center;
+}
+.IM{
+    width: 300px;
+    height: 350px;
+    filter: grayscale(100%);
+    
+}
+.third{
+    gap: 100px;
+
+}
+

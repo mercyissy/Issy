@@ -1,0 +1,69 @@
+.box{
+    margin: 1px solid black;
+    width: 200px;
+    height: 200px; 
+}
+.a{
+    /*width: 80px;
+    height: 100px;
+    float: left; */
+    background-color: green;
+}
+.container{
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+    /* display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows: auto auto;
+   justify-items: end;
+   align-items: start; */
+   /* row-gap: 10px;
+   column-gap: 20px; 
+   gap: 10px 20px; */
+}
+.b{
+    position: absolute;
+    bottom: 60px;
+    right: 30px;
+    /* width: 100px;
+    height: 100px; */
+    /* float: left; */
+   background-color: blue;
+}
+.c{
+    position: absolute;
+    top: 20px;
+    right: 80px;
+   /*  width: 60px;
+    height: 100px; */
+    /* float: left; */
+    background-color: purple;
+}
+.d{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* width: 100px;
+    height: 100px; */
+    /* float: left; */
+    background-color: brown;
+}
+.e{
+    /*width: 25px;
+    float: left; */
+    background-color: red;
+}
+.f{
+    /*width: 30px;
+    float: left; */
+    background-color: violet;
+}
+.g{
+    /* width: 50px; */
+    background-color: aqua;
+}
+.h{
+    /* width: 70px; */
+    background-color: bisque;
+}

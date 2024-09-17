@@ -1,0 +1,14 @@
+/* .header{
+    height: 100vh;
+    background-image: url("./Multimedia/food.jpeg.crdownload");
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover; 
+} */
+body{
+    background-color: greenyellow;
+}
+.mercy:hover{
+    border: 2px soild white;
+    outline: 2px soild red;
+}
