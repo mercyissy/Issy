@@ -10,26 +10,32 @@
 <body>
     
     <section class="container d-flex" style="justify-content: space-around; align-items: center;">
-        <div>
-             <img src="Multimedia/log.PNG" alt="">
-        </div>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="Multimedia/log.PNG" alt="" width="50" height="50">
+              </a>
+            </div>
 
-        <div class="dropdown gap-3" >
-                <a class="headlink dropdown-toggle gap-3" sub id="dropdownMenuButton1" ab data-bs-toggle="dropdown" aria-expanded="false" d-flex href="#">About
+        <div class="collapse navbar-collapse" >
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" role="button" aria-expanded="false"  href="#">About
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                         <li><a class="dropdown-item" href="#">Our Story</a></li>
                         <li><a class="dropdown-item" href="#">Our Team</a></li>
                         <li><a class="dropdown-item" href="#">Campus Info</a></li>
                       </ul>
                 </a>
+            </li>
                 <a class="headlink dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" d-flex href="#">Programmes
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">National Innovation <br> Diploma</a></li>
                         <li><a class="dropdown-item" href="#">Professional Diploma <br> Program</a></li>
                         <li><a class="dropdown-item" href="#">Executive Professional <br> Certificate <br>Program</a></li>
                       
                     </ul>
-                </a>
+                
                 <a class="headlink dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" d-flex href="#">
                     Admissions
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -49,6 +55,7 @@
                 <a href="#">SQI Scholarship</a>
                 <a href="#">News</a>
             </div>
+        </nav>
     </section>
 
      <div>
